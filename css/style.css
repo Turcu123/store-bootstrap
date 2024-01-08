@@ -1,0 +1,18 @@
+body{
+    margin: 0 auto;
+}
+
+nav{
+    background: gray;
+}
+.bg-body-tertiary{
+    --bs-bg-opacity: none;
+}
+.navbar{
+    background: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 10px;
+}
