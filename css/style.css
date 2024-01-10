@@ -3,7 +3,7 @@ body{
 }
 
 nav{
-    background: gray;
+    /*background: gray;*/
 }
 .bg-body-tertiary{
     --bs-bg-opacity: none;

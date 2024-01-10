@@ -150,7 +150,7 @@ ul {
 ol,
 ul,
 dl {
-  margin-top: 0;
+
   margin-bottom: 1rem;
 }
 
@@ -789,7 +789,7 @@ iframe{
 
   .row-cols-md-3 > * {
     flex: 0 0 auto;
-    width: 33.3333333333%;
+    width: 25%;
   }
 
   .row-cols-md-4 > * {
@@ -4432,6 +4432,7 @@ textarea.form-control-lg {
   .card-group > .card:not(:last-child) .card-img-top,
 .card-group > .card:not(:last-child) .card-header {
     border-top-right-radius: 0;
+
   }
   .card-group > .card:not(:last-child) .card-img-bottom,
 .card-group > .card:not(:last-child) .card-footer {
@@ -4583,7 +4584,7 @@ textarea.form-control-lg {
 
 .pagination {
   display: flex;
-  padding-left: 0;
+
   list-style: none;
 }
 
