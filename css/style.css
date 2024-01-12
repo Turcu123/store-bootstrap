@@ -226,6 +226,45 @@ p{
     flex-wrap: wrap;
 }
 
+.card{
+    display: flex;
+    justify-content: center;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buy{
+    width: 100px;
+    border: 1px solid green;
+    border-radius: 30px;
+    background: transparent;
+    color: green;
+    transition: 1s ease;
+}
+
+.buy:hover{
+    background-color: green;
+    color: white;
+    width: 200px;
+}
+
+.remove{
+    width: 100px;
+    border: 1px solid red;
+    border-radius: 30px;
+    background: transparent;
+    color: red;
+    transition: 1s ease;
+}
+.remove:hover{
+    background: red;
+ width: 200px;
+    color: white;
+}
+
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
