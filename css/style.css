@@ -166,6 +166,66 @@ span{
     color: white;
 }
 
+.services{
+    position: relative;
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+
+.card{
+    width: 350px;
+    border: 1px solid lightgray;
+    box-shadow: 1px 1px 3px #333;
+    border-top: 10px solid lightslategrey;
+    min-height: 250px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.services__photo{
+    border-radius: 50%;
+    width: 150px;
+    align-items: center;
+    display: flex;
+    flex: 1 1 0;
+}
+
+h1{
+    text-align: center;
+}
+section h2{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+p{
+    margin: 10px;
+
+    line-height: 1.4em;
+    font-size: 1.2em;
+}
+
+#mainbox{
+    box-sizing: border-box;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* info box */
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
